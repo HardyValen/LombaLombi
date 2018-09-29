@@ -1,0 +1,102 @@
+@font-face { font-family: big-noodle-titling; src: url('../fonts/big-noodle-titling.ttf'); } 
+@font-face { font-family: big-noodle-titling-oblique; src: url('../fonts/big-noodle-titling-oblique.ttf');}
+@font-face { font-family: geomanist-regular; src: url('../fonts/geomanist-regular.otf'); } 
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i,800,800i|Merriweather:300,300i,400,400i,700,700i,900,900i|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/* ===================== */
+
+.big-noodle{font-family:big-noodle-titling !important;}
+.big-noodlei{font-family:big-noodle-titling-oblique !important;}
+.geomanist{font-family:geomanist-regular !important;}
+
+.merriweather, .merriweather-300, .merriweather-300i, .merriweather-400, .merriweather-400i, .merriweather-700, .merriweather-700i, .merriweather-900, .merriweather-900i {font-family: 'Merriweather', serif;}
+.merriweather-sans, .merriweather-sans-300, .merriweather-sans-300i, .merriweather-sans-400, .merriweather-sans-400i, .merriweather-sans-700, .merriweather-sans-700i, .merriweather-sans-800, .merriweather-sans-800i {font-family: 'Merriweather Sans', sans-serif;}
+.montserrat {font-family: 'Montserrat', sans-serif;}
+
+.montserrat-100, .montserrat-100i, .fw-100 {font-weight:100}
+.montserrat-200, .montserrat-200i, .fw-200 {font-weight:200}
+.montserrat-300, .montserrat-300i, .merriweather-300, .merriweather-300i, .merriweather-sans-300, .merriweather-sans-300i, .fw-300 {font-weight:300;}
+.montserrat-400, .montserrat-400i, .merriweather-400, .merriweather-400i, .merriweather-sans-400, .merriweather-sans-400i, .fw-400 {font-weight:400;}
+.montserrat-500, .montserrat-500i, .fw-500 {font-weight:500;}
+.montserrat-600, .montserrat-600i, .fw-600 {font-weight:600;}
+.montserrat-700, .montserrat-700i, .merriweather-700, .merriweather-700i, .merriweather-sans-700, .merriweather-sans-700i, .fw-700 {font-weight:700;}
+.montserrat-800, .montserrat-800i, .merriweather-sans-800, .merriweather-sans-800i, .fw-800 {font-weight:800;}
+.montserrat-900, .montserrat-900i, .merriweather-900, .merriweather-900i, .fw-900 {font-weight:900;}
+
+.montserrat-100i, .montserrat-200i, .montserrat-300i, .montserrat-400i, .montserrat-500i, .montserrat-600i, .montserrat-700i, .montserrat-800i, .montserrat-900i, .merriweather-300i, .merriweather-400i, .merriweather-700i, .merriweather-900i, .merriweather-sans-300i, .merriweather-sans-400i, .merriweather-sans-700i, .merriweather-sans-800i { font-style:italic;}
+
+
+h1.judul {font-size:100px !important;/*display:inline;*/}
+h1.judul2{font-size:200px !important}
+h1.prize{font-size:75px !important}
+h1, .header1{font-size:48px !important}
+h2, .header2{font-size:36px !important}
+h3, .header3{font-size:24px !important}
+p, a, .paragraph{font-size:20px !important}
+.smalltext {font-size:14px !important}
+.form-text, a.form-text{font-size:12px !important}
+.small-caps {font-variant:small-caps !important;}
+
+@media only screen and (max-width: 768px){
+h1.judul{font-size:87.5px !important;}
+h1.judul2{font-size:150px !important}
+h1.prize{font-size:67.5px !important}
+h1, .header1{font-size:36px !important}
+h2, .header2{font-size:27px !important}
+h3,	.header3{font-size:20px !important }
+p, a, .paragraph{font-size:17px !important}
+.form-text, a.form-text, .smalltext{font-size:11px !important}
+}
+
+@media only screen and (max-width: 420px){
+h1.judul{font-size:75px !important;}
+h1.judul2{font-size:110px !important}
+h1.prize{font-size:60px !important}
+h1,	.header1{font-size:28px !important}
+h2,	.header2{font-size:21px !important}
+h3,	.header3{font-size:16px !important}
+p, a, .paragraph{font-size:14px !important}
+.form-text, a.form-text, .smalltext{font-size:10px !important}
+}
+
+/* Loose - 12 July 2018 */
+.loose-1 {letter-spacing:0.5px;padding-left:0.5px;}
+.loose-2 {letter-spacing:1.0px;padding-left:1.0px;}
+.loose-3 {letter-spacing:1.5px;padding-left:1.5px;}
+.loose-4 {letter-spacing:2.0px;padding-left:2.0px;}
+.loose-5 {letter-spacing:2.5px;padding-left:2.5px;}
+.loose-6 {letter-spacing:3.0px;padding-left:3.0px;}
+
+.looseem-1 {letter-spacing:0.25em;padding-left:0.25em;}
+.looseem-2 {letter-spacing:0.50em;padding-left:0.50em;}
+.looseem-3 {letter-spacing:0.75em;padding-left:0.75em;}
+.looseem-4 {letter-spacing:1.00em;padding-left:1.00em;}
+.looseem-5 {letter-spacing:1.25em;padding-left:1.25em;}
+.looseem-6 {letter-spacing:1.50em;padding-left:1.50em;}
+.looseem-7 {letter-spacing:1.75em;padding-left:1.75em;}
+.looseem-8 {letter-spacing:2.00em;padding-left:2.00em;}
+
+/* Font-Size - 12 July 2018 */
+.xx-small {font-size: xx-small}
+.x-small {font-size: x-small}
+.smaller {font-size: smaller}
+.small {font-size: small}
+.medium {font-size: medium}
+.large {font-size: large}
+.larger {font-size: larger}
+.x-large {font-size: x-large}
+.xx-large {font-size: xx-large}
+
+.line-height-0 {line-height: 0.10 !important;}
+.line-height-1 {line-height: 0.70 !important;}
+.line-height-2 {line-height: 0.85 !important;}
+.line-height-3 {line-height: 1.00 !important;}
+.line-height-4 {line-height: 1.25 !important;}
+
+.line-height-5 {line-height: 1.5 !important;}
+.line-height-6 {line-height: 2.0 !important;}
+.line-height-7 {line-height: 2.5 !important;}
+.line-height-8 {line-height: 3.0 !important;}
+
+
