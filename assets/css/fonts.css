@@ -34,8 +34,8 @@ h1, .header1{font-size:48px !important}
 h2, .header2{font-size:36px !important}
 h3, .header3{font-size:24px !important}
 p, a, .paragraph{font-size:20px !important}
-.smalltext {font-size:14px !important}
-.form-text, a.form-text{font-size:12px !important}
+.smalltext, a.navbar-font-custom, a.font-button {font-size:14px !important}
+.form-text, a.form-text {font-size:12px !important}
 .small-caps {font-variant:small-caps !important;}
 
 @media only screen and (max-width: 768px){
@@ -61,12 +61,12 @@ p, a, .paragraph{font-size:14px !important}
 }
 
 /* Loose - 12 July 2018 */
-.loose-1 {letter-spacing:0.5px;padding-left:0.5px;}
-.loose-2 {letter-spacing:1.0px;padding-left:1.0px;}
-.loose-3 {letter-spacing:1.5px;padding-left:1.5px;}
-.loose-4 {letter-spacing:2.0px;padding-left:2.0px;}
-.loose-5 {letter-spacing:2.5px;padding-left:2.5px;}
-.loose-6 {letter-spacing:3.0px;padding-left:3.0px;}
+.loose-1 {letter-spacing:0.5px;}
+.loose-2 {letter-spacing:1.0px;}
+.loose-3 {letter-spacing:1.5px;}
+.loose-4 {letter-spacing:2.0px;}
+.loose-5 {letter-spacing:2.5px;}
+.loose-6 {letter-spacing:3.0px;}
 
 .looseem-1 {letter-spacing:0.25em;padding-left:0.25em;}
 .looseem-2 {letter-spacing:0.50em;padding-left:0.50em;}
@@ -76,6 +76,7 @@ p, a, .paragraph{font-size:14px !important}
 .looseem-6 {letter-spacing:1.50em;padding-left:1.50em;}
 .looseem-7 {letter-spacing:1.75em;padding-left:1.75em;}
 .looseem-8 {letter-spacing:2.00em;padding-left:2.00em;}
+
 
 /* Font-Size - 12 July 2018 */
 .xx-small {font-size: xx-small}
@@ -99,4 +100,19 @@ p, a, .paragraph{font-size:14px !important}
 .line-height-7 {line-height: 2.5 !important;}
 .line-height-8 {line-height: 3.0 !important;}
 
+.select-disable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.select-enable { 
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+}
 

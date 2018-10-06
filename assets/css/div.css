@@ -3,7 +3,9 @@ html, body{
 	padding:0;
 	height:100%;
     max-width:100%;
-	font-family: 'Montserrat';
+    font-family: 'Montserrat';
+    
+    counter-reset: ctr;
 }
 
 .overflowx-hidden {overflow-x:hidden}
@@ -127,11 +129,95 @@ font-family: 'Montserrat', sans-serif; */
 .content-2, .content-up-2, .content-bo-2 { width:16.66%;}
 .content-1, .content-up-1, .content-bo-1 { width:8.33%;}
 
-.not-allowed {cursor: not-allowed;}
-.no-drop {cursor: no-drop;}
+.not-allowed:hover {cursor: not-allowed;}
+.no-drop:hover {cursor: no-drop;}
 
 .div-sh-1 {box-shadow:0px 0px 20px 10px rgba(0,0,0,0.75);}
 .div-sh-2 {box-shadow:0px 0px 30px 12px rgba(0,0,0,0.65);}
+
+.btn-round {
+    border-radius: 50% !important;
+    padding: .5rem .9rem;
+}
+
+.btn-primary {
+    border: none;
+    background-color: #cf3e3e
+}
+
+.btn-primary:hover {
+    background-color: #F7941E !important;
+}
+
+.div-border-lefttop {
+border-left:1px solid #F7941E;
+border-top:none;
+}
+
+.custom-list::before {
+    content: counter(ctr);
+    counter-increment: ctr;
+    display: block;
+    font-family: "Geomanist", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+    text-align: center;
+    color: #fbc484;
+    background-color: #6e111a;
+    height: 48px;
+    width: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left:24px;
+}
+
+@media only screen and (max-width: 1244px) {
+    img.img-hide-view {
+        height:75px
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .div-border-lefttop {
+        border-left: none;
+        border-top: 1px solid #F7941E;
+    }
+
+    .div-border-responsive-top {
+        border-left: none;
+        border-top: 1px solid #F7941E;
+    }
+    .custom-list::before {
+        font-size: 1.4rem;
+        height: 42px;
+        width: 42px;
+        line-height: 42px;
+        top: -3px;
+        margin-left:20px;
+    }
+
+}
+
+@media only screen and (max-width: 440px){
+
+    img.img-hide-view {
+        height:50px
+    }
+    .custom-list::before {
+        font-size: 1.2rem;
+        height: 39px;
+        width: 39px;
+        line-height: 39px;
+        top: -5px;
+        margin-left:16px;
+    }
+}
+
+
 
 /*================ PLUGINS ================*/
 /* TIMELINE */
